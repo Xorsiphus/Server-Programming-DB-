@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <hibernate-configuration xmlns="urn:nhibernate-configuration-2.2"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="urn:nhibernate-configuration-2.2 ">
+        <session-factory>
+            <property name="connection.provider">
+                NHibernate.Connection.DriverConnectionProvider
+            </property>
+            <property name="dialect">NHibernate.Dialect.PostgreSQLDialect</property>
+            <property name="connection.driver_class">
+                NHibernate.Driver.NpgsqlDriver
+            </property>
+            <property name="connection.connection_string">
+                Server=1.1.1.11;User Id=postgres;Password=super;Port=5432;Database=Test_DB;
+            </property>
+            <property name="show_sql">true</property>
+            <property name="format_sql">true</property>
+        </session-factory>
+    </hibernate-configuration>
+</configuration>
