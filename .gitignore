@@ -1,8 +1,13 @@
 Lab_4/C# (NHibernate)/.idea/
 Lab_4/C# (NHibernate)/bin/
 Lab_4/C# (NHibernate)/obj/
-
 Lab_4/Java (Hibernate)/src/.idea/
+
+Lab_5/NHibernate/.idea/
+Lab_5/NHibernate/bin/
+Lab_5/NHibernate/obj/
+Lab_5/NHibernate/NpgsqlDriverExtended/bin/
+Lab_5/NHibernate/NpgsqlDriverExtended/obj/
 
 Python-SQL_API/.idea
 Python-SQL_API/venv
