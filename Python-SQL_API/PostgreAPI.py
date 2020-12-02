@@ -71,7 +71,7 @@ class PostgreSQL:
             return
         max_val = self.get_max_val('companies', 'id')
         request = self.gen_insert_str(range_val, 'movies', 'company_id, name, date, genre',
-                                      max_val, 'str', 'date_m', 'str[]_last')
+                                      max_val, 'str', 'date_m', 'str_last')
         self.execute_request(request)
 
     def fill_cinemas_table(self, range_val):

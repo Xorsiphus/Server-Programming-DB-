@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections;
+using SP_Lab_5.Manager;
 
-namespace SP_Lab_4.ORMLibraryTest
+namespace SP_Lab_5.ORMLibraryTest
 {
     public class TestSrvc
     {
